@@ -1,0 +1,44 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 8px 10px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: var(--main-bg-color);
+    transition: 0.4s ease-in-out;
+}
+.my-2{
+    margin: 26px 12px;
+}
+.text-center{
+    text-align: center;
+}
+hr{
+    border-color: #ffffff54;
+}
+p{
+    margin-bottom: 8px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#bold{
+    font-weight: bold;
+}
+#green{
+    color: seagreen;
+}
+#light{
+    font-weight: lighter;
+    color: silver;
+}

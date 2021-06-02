@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+    --main-bg-color: linear-gradient(to right, #8515be 0%, #357295 100%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: #f1f3f6;
+
+}
+header{
+    background:var(--main-bg-color);
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+nav{
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    /* align-items: center; */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 350;
+}
+nav ul li a:hover{
+    color: wheat;
+    font-weight: bolder;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+.search-bar input{
+    outline: none;
+    width: 493px; 
+    height: 31px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px ;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.container{
+    min-height: 80vh;
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 80vw;
+}
+.card{
+    background-color: white;
+    max-width: 93vw;
+    height: 385px ;
+    margin: 0 auto 18px;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: scroll;
+}
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:20px 15px;
+    /* align-items: center; */
+}
+.card h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer{
+    height: 12vh;
+    background: var(--main-bg-color);
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+}
