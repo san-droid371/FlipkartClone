@@ -24,6 +24,7 @@ nav{
     top: 0;
     left: 0;
     /* align-items: center; */
+    justify-content: space-evenly;
 }
 .logo{
     display: flex;
@@ -31,7 +32,7 @@ nav{
 }
 .logo img{
     width: 88px;
-    padding: 0 25px;
+    padding: 0 10px;
 }
 nav ul{
     height: 58px;
@@ -41,32 +42,35 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    padding: 0 23px;
+    padding: 0 1rem;
 }
 nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: 350;
+    transform: scaleX(2);
 }
 nav ul li a:hover{
     color: wheat;
     font-weight: bolder;
+    transform: scale(2);
 }
 .search-bar{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .search-bar input{
-    outline: none;
-    width: 493px; 
+    outline: none; 
     height: 31px;
     border-radius: 2px;
-    margin: 0 16px 0 56px ;
+    margin: 0px 2px;
     font-family: 'Josefin Sans', sans-serif;
     padding: 0 20px;
     font-weight: bold;
     font-size: 1rem;
     border: none;
+    
 
 }
 
